@@ -6,6 +6,4 @@ RUN apk update && apk upgrade && \
 	yarn config set registry 'https://registry.npm.taobao.org'
 
 ADD bin/ /usr/local/bin/
-ADD .ssh/ /root/.ssh/
-RUN chmod 600 ~/.ssh/ -R
 
