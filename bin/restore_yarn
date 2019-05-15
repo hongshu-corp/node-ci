@@ -1,1 +1,0 @@
-mv /root/cache/yarn/$1/node_modules .
